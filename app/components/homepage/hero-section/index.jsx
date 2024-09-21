@@ -29,8 +29,6 @@ function HeroSection() {
             {`, I'm a `}
             <span className="text-[#16f2b3]">{personalData.designation}</span>
             <br/> {/* This will add a line break */}
-            <span className="text-gray-500">Another line of text here</span>
-            .
           </h1>
 
           <div className="my-12 flex items-center gap-5">
