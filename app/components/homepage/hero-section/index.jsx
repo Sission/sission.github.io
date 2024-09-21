@@ -23,19 +23,21 @@ function HeroSection() {
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Hello, <br />
+            Hello, <br/>
             This is {' '}
-            <span className=" text-pink-500">{personalData.name}</span>
-            {` , I'm a`}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>
+            <span className="text-pink-500">{personalData.name}</span>
+            {`, I'm a `}
+            <span className="text-[#16f2b3]">{personalData.designation}</span>
+            <br/> {/* This will add a line break */}
+            <span className="text-gray-500">Another line of text here</span>
             .
           </h1>
 
           <div className="my-12 flex items-center gap-5">
             <Link
-              href={personalData.github}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+                href={personalData.github}
+                target='_blank'
+                className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
