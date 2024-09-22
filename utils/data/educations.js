@@ -24,7 +24,7 @@ export const educations = [
     title: "B.S.",
     degree: "Mechanical Engineering",
     duration: "Aug 2012 – Jun 2017",
-    institution: "University of Science and Technology, Beijing",
+    institution: "University of Science & Technology, Beijing",
     image: "/ustb.png", // Image for USTB
     imageWidth: 100 // another width
 
