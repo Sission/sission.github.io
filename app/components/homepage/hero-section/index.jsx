@@ -10,10 +10,12 @@ import { RiContactsFill } from "react-icons/ri";
 import { FaGoogleScholar } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
+import { MdOutgoingMail } from "react-icons/md";
+
 
 function HeroSection() {
   return (
-    <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
+    <section id="home" className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
         src="/hero.svg"
         alt="Hero"
@@ -59,7 +61,7 @@ function HeroSection() {
                 href={`mailto:${personalData.email}`}
                 className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <SiGmail size={30} />
+              <MdOutgoingMail size={50} />
             </Link>
             {/*<Link*/}
             {/*  href={personalData.facebook}*/}
