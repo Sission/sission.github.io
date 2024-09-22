@@ -1,20 +1,32 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Ph.D.",
+    degree: "Robotics Engineering",
+    duration: "Aug 2020 - Present",
+    institution: "Worcester Polytechnic Institute",
+    image: "/wpi.png", // Image for WPI
+    imageWidth: 100 // width in pixels for this entry
+
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "M.S.",
+    degree: "Mechanical Engineering",
+    duration: "Aug 2017 - Jun 2019",
+    institution: "Boston University",
+    image: "/bu.png", // Image for Boston University
+    imageWidth: 100 // different width
+
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "B.S.",
+    degree: "Mechanical Engineering",
+    duration: "Aug 2012 – Jun 2017",
+    institution: "University of Science and Technology, Beijing",
+    image: "/ustb.png", // Image for USTB
+    imageWidth: 100 // another width
+
   }
-]
+];

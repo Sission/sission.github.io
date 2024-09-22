@@ -40,7 +40,7 @@ import markdown from '/public/svg/skills/markdown.svg';
 import materialui from '/public/svg/skills/materialui.svg';
 import matlab from '/public/svg/skills/matlab.svg';
 import memsql from '/public/svg/skills/memsql.svg';
-import microsoftoffice from '/public/svg/skills/microsoftoffice.svg';
+import office from '/public/svg/skills/microsoftoffice.svg';
 import mongoDB from '/public/svg/skills/mongoDB.svg';
 import mysql from '/public/svg/skills/mysql.svg';
 import nextJS from '/public/svg/skills/nextJS.svg';
@@ -72,6 +72,8 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import ros from '/public/svg/skills/ROS.svg';
+import printing from '/public/svg/skills/printing.svg';
 
 
 export const skillsImage = (skill) => {
@@ -79,6 +81,10 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
+    case '3D':
+      return printing;
+    case 'ros':
+      return ros;
     case 'html':
       return html;
     case 'photoshop':
@@ -213,8 +219,8 @@ export const skillsImage = (skill) => {
       return ionic;
     case 'markdown':
       return markdown;
-    case 'microsoft office':
-      return microsoftoffice;
+    case 'office':
+      return office;
     case 'picsart':
       return picsart;
     case 'sketch':
